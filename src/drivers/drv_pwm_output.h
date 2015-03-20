@@ -68,32 +68,32 @@ __BEGIN_DECLS
 /**
  * Lowest minimum PWM in us
  */
-#define PWM_LOWEST_MIN 900
+#define PWM_LOWEST_MIN 800
 
 /**
  * Default minimum PWM in us
  */
-#define PWM_DEFAULT_MIN 1000
+#define PWM_DEFAULT_MIN 1500
 
 /**
  * Highest PWM allowed as the minimum PWM
  */
-#define PWM_HIGHEST_MIN 1300
+#define PWM_HIGHEST_MIN 1000
 
 /**
  * Highest maximum PWM in us
  */
-#define PWM_HIGHEST_MAX 2100
+#define PWM_HIGHEST_MAX 2400
 
 /**
  * Default maximum PWM in us
  */
-#define PWM_DEFAULT_MAX 2000
+#define PWM_DEFAULT_MAX 1900
 
 /**
  * Lowest PWM allowed as the maximum PWM
  */
-#define PWM_LOWEST_MAX 1700
+#define PWM_LOWEST_MAX 2000
 
 /**
  * Do not output a channel with this value
